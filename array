@@ -1,0 +1,16 @@
+const fruits = ['Manzana', 'Pera', 'Uva', 'Papaya', 'Bananos'];
+let i = 0;
+const findFruit = 'Uva';
+
+console.log('start');
+
+while (i < fruits.length) {
+  if (fruits[i] === findFruit) {
+    console.log(findFruit);
+  } else {
+    console.log(i);
+  }
+  i++;
+}
+
+console.log('end');
